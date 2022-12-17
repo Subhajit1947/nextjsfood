@@ -1,0 +1,34 @@
+.slider{
+    height: 100%;
+    
+    width: 300vw;
+    display: flex;
+    white-space: nowrap;
+    transition: all 1.5s ease-in-out;
+    
+}
+.wraper{
+    
+    height: 100%;
+    width: 100vw;
+    position: relative;
+    
+}
+.text{
+    font-size: 3rem;
+    color: white;
+}
+.maindiv{
+    height: calc(100vh - 100px);
+    background-color: brown;
+    
+}
+.ls{
+    position:absolute;
+    top:0;
+    bottom: 0;
+    height:10%;
+    width:7rem;
+    margin: auto;
+    z-index: 3;
+}

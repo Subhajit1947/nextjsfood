@@ -1,0 +1,174 @@
+[
+    {
+        "id": 0,
+        "name": "Margherita",
+        "description": "",
+        "ingredients": ["tomato sauce", "mozzarella"],
+        "spicy": false,
+        "vegetarian": true,
+        "price": 17.0,
+        "image": "https://i.imgur.com/8B8YLOo.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Pepperoni",
+        "description": "",
+        "ingredients": ["tomato sauce", "mozzarella", "double pepperoni"],
+        "spicy": false,
+        "vegetarian": false,
+        "price": 20.0,
+        "image": "https://i.imgur.com/OHHctnf.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Rome",
+        "description": "",
+        "ingredients": [
+            "tomato sauce",
+            "mozzarella",
+            "ham",
+            "mushrooms",
+            "beef cubes"
+        ],
+        "spicy": false,
+        "vegetarian": false,
+        "price": 25.75,
+        "image": "https://i.imgur.com/3ZTwCfz.png"
+    },
+    {
+        "id": 3,
+        "name": "American Spicy",
+        "description": "",
+        "ingredients": [
+            "tomato sauce",
+            "mozzarella",
+            "pepperoni",
+            "tomatoes",
+            "green pepper",
+            "red onion",
+            "jalapenos",
+            "Samourai sauce"
+        ],
+        "spicy": true,
+        "vegetarian": false,
+        "price": 30.25,
+        "image": "https://i.imgur.com/dyoOLCO.png"
+    },
+    {
+        "id": 4,
+        "name": "Quattro Stagioni",
+        "description": "",
+        "ingredients": [
+            "tomato sauce",
+            "mozzarella",
+            "ham",
+            "pepperoni",
+            "mushrooms",
+            "green pepper"
+        ],
+        "spicy": false,
+        "vegetarian": false,
+        "price": 27.25,
+        "image": "https://i.imgur.com/wOEuXuV.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Pork & Feta",
+        "description": "",
+        "ingredients": [
+            "tomato sauce",
+            "mozzarella",
+            "feta cheese",
+            "ham",
+            "pork cubes",
+            "red onion"
+        ],
+        "spicy": false,
+        "vegetarian": false,
+        "price": 27.25,
+        "image": "https://i.imgur.com/48Zw4K3.png"
+    },
+    {
+        "id": 6,
+        "name": "Quattro Formaggi",
+        "description": "",
+        "ingredients": [
+            "mozzarella",
+            "cheddar cheese",
+            "emmentaler",
+            "blue cheese",
+            "oregano"
+        ],
+        "spicy": false,
+        "vegetarian": true,
+        "price": 35.15,
+        "image": "https://i.imgur.com/MDrTvkI.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Carnivora",
+        "description": "",
+        "ingredients": [
+            "tomato sauce",
+            "mozzarella",
+            "chicken breast",
+            "beef cubes",
+            "pepperoni",
+            "bacon"
+        ],
+        "spicy": false,
+        "vegetarian": false,
+        "price": 27.25,
+        "image": "https://i.imgur.com/0vPtSSO.png"
+    },
+    {
+        "id": 8,
+        "name": "Louisiana Chicken",
+        "description": "",
+        "ingredients": [
+            "marinated chicken",
+            "TABASCO spicy sauce",
+            "red pepper sauce",
+            "blue cheese",
+            "green pepper",
+            "red onion"
+        ],
+        "spicy": true,
+        "vegetarian": false,
+        "price": 20.0,
+        "image": "https://i.imgur.com/lZtwJgy.png"
+    },
+    {
+        "id": 9,
+        "name": "Honey Mustard Chicken",
+        "description": "",
+        "ingredients": [
+            "tomato sauce",
+            "mozzarella",
+            "marinated chicken in Honey Mustard sauce",
+            "cheddar cheese",
+            "red onion"
+        ],
+        "spicy": false,
+        "vegetarian": false,
+        "price": 19.8,
+        "image": "https://i.imgur.com/SoZu61g.png"
+    },
+    {
+        "id": 10,
+        "name": "Hawaiian",
+        "description": "",
+        "ingredients": [
+            "mozzarella",
+            "sweet chilli sauce",
+            "pepperoni",
+            "pineapple",
+            "jalapenos",
+            "red onion"
+        ],
+        "spicy": true,
+        "vegetarian": false,
+        "price": 27.25,
+        "image": "https://i.imgur.com/mqTgvgl.png"
+    }
+]

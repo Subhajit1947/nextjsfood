@@ -1,0 +1,94 @@
+.navbar{
+    height:100px;
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    
+    z-index: 3;
+    position: -webkit-sticky;
+    position: relative;
+}
+.navchil{
+   
+    display: flex;
+    
+    margin:1rem
+
+}
+.navchil:first-child{
+    display: flex;
+    flex: 4;
+    justify-content: space-around;
+    
+    
+}
+.navchil:nth-child(2){
+    flex: 1;
+}
+.na{
+    margin: 1rem;
+}
+.navchil:last-child{
+    
+    justify-content: flex-end;
+    position: relative;
+    flex:1;
+    
+}
+.cartno{
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: white;
+    border-radius: 50%;
+    color:brown;
+    text-align: center;
+    position: absolute;
+    top: -23px;
+    right: 2px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}
+.callicon{
+    padding-right: 6px;
+}
+.iboton{
+    display: none;
+    margin-right: 1rem;
+}
+.show{
+    position: absolute;
+    top:110px;
+    left:1px;
+    background-color: aqua;
+}
+.abc{
+    display:none;
+    position: absolute;
+    top:0px;
+    left:1px;
+}
+@media screen and (max-width: 768px){
+    .navchil .na{
+        display: none;
+    }
+    .iboton{
+        display: flex;
+        flex-direction: column;
+       
+        width: 35px;
+        margin-right: 1rem;
+       
+    }
+    .iboton>*{
+        display:block;
+        width: 100%;
+        height:3px;
+        background-color:white;
+        
+        margin-bottom: 8px;
+    }
+}
