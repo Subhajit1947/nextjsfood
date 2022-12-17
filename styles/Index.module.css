@@ -1,0 +1,46 @@
+.maincart{
+    display: flex;
+    flex-direction: column;
+    width:100vw;
+    align-items: center;
+}
+.tablec{
+    width:100%
+}
+.tablec>table{
+    width:100%;
+    border-spacing:5px;
+}
+.totalno{
+    height:12rem;
+    width:70%;
+    background-color:black;
+    margin:1rem;
+    color:white;
+    padding-left:2rem;
+    padding-top:1rem;
+}
+@media screen and (min-width:768px) {
+    .maincart{
+    
+        width:100vw;
+        display: flex;
+        flex-direction: row;
+    }
+    .tablec{
+        width:70%
+    }
+    .tablec>table{
+        width:100%;
+        border-spacing:20px;
+    }
+    .totalno{
+        height:12rem;
+        width:20%;
+        background-color:black;
+        margin:1rem;
+        color:white;
+        padding-left:2rem;
+        padding-top:1rem;
+    }
+}
